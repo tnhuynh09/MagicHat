@@ -1,0 +1,86 @@
+/* .Home-header{
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-logo  {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+}
+
+.Home-title {
+    position: relative;
+    align-items: center;
+    top: 18px;
+    left: 10px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+
+h1 { 
+    color: rgb(24, 25, 26); 
+    font-family: 'Denk One', sans-serif;
+    font-size: 64px; 
+    font-weight: 700; 
+    line-height: 64px; 
+    margin: 0 80px 0; 
+    padding: 20px 30px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-shadow: 4px 4px 8px #1ed0e7;
+    /* text-shadow: 0 0 15px rgb(42, 91, 100); */
+}
+
+hr {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.Home-question-wrapper {
+    /* background: red; */
+    height: 10rem; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.Home-question {
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
+
+.Home-buttons {
+    justify-content: center;
+    padding-left: 6rem;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(61, 194, 194);
+    color: rgb(15, 83, 104);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase; 
+}
+
+.Home-error-message {
+    margin-left: 6rem;
+    margin-right:auto;
+    background:rgb(241, 188, 188);
+    padding-left: 0;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem;
+    font-size: 12px; 
+    font-weight: 400;
+}
